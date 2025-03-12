@@ -15,7 +15,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 app.get("/", (req, res) => {
-    res.send("https://esther-c4275.github.io/resturant/")
+    res.send("https://esther-c4275.github.io/res")
 });
 
 // Serve static files from "public" folder
