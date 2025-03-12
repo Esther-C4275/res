@@ -1,0 +1,196 @@
+
+html,body{
+     background-image: url("wood.jpeg");
+     background-position: center;
+     background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    font-size: 20px;
+    width: 90%;
+    margin-bottom: 10px;
+    gap: 40px;
+    text-decoration: none;
+    
+   
+}
+
+
+
+.abc{
+    color: rgba(255, 255, 255, 0.779);
+    
+}
+
+.button{
+    border-radius: 5px;
+    border: none;
+    ;
+    
+
+}
+
+.button:hover{
+    background-color: rgba(128, 128, 128, 0.728);
+    transform: scale(1.05);
+
+}
+
+.picture-container{
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+
+    
+}
+
+h1{
+   font-family:  "Crimson Text", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 60px;
+  padding: 20px;
+  color: rgba(240, 255, 255, 0.908);
+  text-align: center;
+ 
+  
+
+}
+
+p{
+    text-transform: capitalize;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+    color: rgba(240, 255, 255, 0.779);
+    margin-top: 20px;
+    
+}
+
+.class{
+ display: flex;
+
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    animation: rotate 10s linear infinite;
+    border-radius: 0%;
+}
+
+
+
+
+
+.uhmm{
+    flex-direction: flex;
+    gap: 40px;
+    height: 200px;
+    
+    
+}
+
+.chef{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    color: brown;
+}
+
+ul{
+    font-family: "Crimson Text", serif;;
+    font-size: 20px;
+    color: rgba(240, 255, 255, 0.852);
+    margin-top: 0px;
+}  
+
+h3{
+    font-family: "Crimson Text", serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: rgba(240, 255, 255, 0.84);
+   text-transform: uppercase;
+}
+
+h2{
+    font-family: "Crimson Text", serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0px;
+    color: rgba(240, 255, 255, 0.769);
+}
+
+.menu-container{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.meal-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+button{
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-family: "Crimson Text", serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(165, 42, 42);
+    transform: scale(1.05);
+}
+
+.opp{
+    
+    height: 600px;
+    width: 50%;
+    border-radius: 8px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 80%;
+    border: 3px solid black;
+    background-image: url("Her\ Clipart\ Hd\ PNG\,\ A\ Woman\ Chef\ With\ A\ Spoon\ In\ Her\ Hand\,\ Woman\ Clipart\,\ Chef\ Clipart\,\ Spoon\ Clipart\ PNG\ Image\ For\ Free\ Download.jpeg");
+    background-position: center;
+    background-size: cover;
+   
+}
+
+
+
+h4{
+    font-family: "Crimson Text", serif;
+    color: rgba(240, 255, 255, 0.769);
+}
+
+a{
+    text-decoration: none;
+}
+
+.idk{
+     
+     width: 200px;
+     height: 200px;
+     border: 3px solid rgba(255, 255, 255, 0.879);
+     box-shadow: 0px 4px ;
+     border-radius: 80%;
+     
+}
+
+

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jersey+15&family=Moon+Dance&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body,html{
+    background-image: url("wood.jpeg");
+    background-position: center;
+     background-size: cover;
+}
+
+
+h2{
+    font-family: "Crimson Text", serif;
+    color: rgba(240, 255, 255, 0.769);
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.abc{
+    border: 1px dashed rgba(240, 255, 255, 0.769);;
+    height: 400px;
+    width: 50%;
+    margin-top: 20px;
+
+}
+
+#colors{
+    border: 1px dashed rgba(240, 255, 255, 0.769);
+    padding: 20px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#textbox{
+   background-color: rgba(240, 255, 255, 0.769);
+   border-radius: 3px;
+   margin-left: 10px;
+   border: 1px solid black;
+   height: 20px;
+}
+
+#addbutton{
+    background-color:rgba(240, 255, 255, 0.769);
+    font-family: "Crimson Text", serif; 
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+
+}
+
+#addbutton:hover{
+    background-color: brown;
+}
+
+.opp{
+    background-color:rgba(240, 255, 255, 0.769);
+    font-family: "Crimson Text", serif; 
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+.opp:hover{
+    background-color: brown;
+    transform: scale(1.05);
+}
+
+img{
+    display: block;
+    border-radius: 50%;
+    height: 300px;
+    animation: rotate 10s linear infinite;
+    
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+h1{
+    font-size: 30px;
+    font-family: "Crimson Text", serif;
+    color: rgba(240, 255, 255, 0.769);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+</style>
+
+<body>
+    <h1>comfort's resturant</h1>
+
+    <div class="card">
+        <img src="Her Clipart Hd PNG, A Woman Chef With A Spoon In Her Hand, Woman Clipart, Chef Clipart, Spoon Clipart PNG Image For Free Download.jpeg" alt="">
+      </div>
+    <div class="abc">
+        <h2>add your order here 😋</h2>
+        <hr/>
+        <input type="text" id="textbox">
+        <button id="addbutton" >Add</button>
+        <div>
+            <ol id="colors">
+            
+            </ol>
+        </div>
+
+        
+
+    </div>
+
+   <a href="/index.html" > <button class="opp">go back</button>
+    
+
+    <script>
+
+        const button = document.getElementById("addbutton");
+        const input = document.getElementById("textbox");
+        const list = document.getElementById("colors");
+        
+        button.addEventListener("click", function(){
+                const ol = document.getElementById("colors");
+                const li = document.createElement("li");
+                li.innerHTML = input.value;
+                input.value = " ";
+                ol.appendChild(li);
+            });
+        </script>
+</body>
+</html>
